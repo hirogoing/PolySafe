@@ -1,0 +1,66 @@
+# Python / backend
+backend/__pycache__/
+backend/**/*.py[cod]
+backend/.venv/
+backend/venv/
+backend/.env
+backend/*.db
+backend/content_detect.db
+backend/uploads/
+backend/faiss_data/
+
+# Frontend / node
+frontend/node_modules/
+frontend/dist/
+frontend/.env
+
+# Editor / OS
+.DS_Store
+*.log
+.idea/
+.vscode/
+
+# Misc
+*.sqlite3
+*.pytest_cache/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+*.egg
+.venv/
+venv/
+env/
+
+# Node
+node_modules/
+dist/
+
+# IDE
+.vscode/
+.idea/
+
+# Env
+.env
+*.env.local
+
+# DB
+*.db
+*.sqlite3
+
+# Uploads
+backend/uploads/*
+!backend/uploads/.gitkeep
+
+# FAISS
+backend/faiss_data/*
+!backend/faiss_data/.gitkeep
+
+# OS
+.DS_Store
+Thumbs.db
+
+# CodeBuddy
+.codebuddy/

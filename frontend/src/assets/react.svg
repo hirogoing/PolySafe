@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" role="img" aria-hidden="true">
+  <defs>
+    <linearGradient id="shieldReactBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#020617" />
+      <stop offset="100%" stop-color="#020617" />
+    </linearGradient>
+    <linearGradient id="shieldReactBorder" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="100%" stop-color="#0ea5e9" />
+    </linearGradient>
+  </defs>
+
+  <!-- circular background -->
+  <circle cx="128" cy="128" r="120" fill="url(#shieldReactBg)" />
+
+  <!-- shield -->
+  <path
+    d="M128 30L70 52v70c0 48 30 75 58 96c28-21 58-48 58-96V52L128 30z"
+    fill="url(#shieldReactBorder)"
+  />
+  <path
+    d="M128 42L82 60v62c0 38 22 60 46 78c24-18 46-40 46-78V60L128 42z"
+    fill="#020617"
+  />
+
+  <!-- center node -->
+  <circle cx="128" cy="118" r="14" fill="#22c55e" />
+
+  <!-- ring / radar lines -->
+  <circle cx="128" cy="118" r="38" fill="none" stroke="#38bdf8" stroke-width="4" stroke-dasharray="4 6" opacity="0.85" />
+  <path
+    d="M90 118c0-22 12-40 38-48m38 48c0 22-12 40-38 48"
+    fill="none"
+    stroke="#0ea5e9"
+    stroke-width="3"
+    stroke-linecap="round"
+    opacity="0.8"
+  />
+</svg>

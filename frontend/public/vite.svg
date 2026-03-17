@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" role="img" aria-hidden="true">
+  <defs>
+    <linearGradient id="shieldBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#1e293b" />
+    </linearGradient>
+    <linearGradient id="shieldBorder" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="100%" stop-color="#0ea5e9" />
+    </linearGradient>
+  </defs>
+
+  <!-- outer glow -->
+  <circle cx="128" cy="128" r="120" fill="#020617" />
+  <circle cx="128" cy="128" r="120" fill="url(#shieldBg)" opacity="0.88" />
+
+  <!-- shield shape -->
+  <path
+    d="M128 28L64 52v72c0 52 32 80 64 104c32-24 64-52 64-104V52L128 28z"
+    fill="url(#shieldBorder)"
+  />
+  <path
+    d="M128 40L76 60v64c0 42 25 66 52 86c27-20 52-44 52-86V60L128 40z"
+    fill="url(#shieldBg)"
+  />
+
+  <!-- inner check mark -->
+  <path
+    d="M106 130l-16-16a8 8 0 0 0-11 11l22 22a8 8 0 0 0 11 0l49-49a8 8 0 0 0-11-11l-44 43z"
+    fill="#22c55e"
+  />
+
+  <!-- subtle highlight -->
+  <path
+    d="M128 40L76 60v18l52-18l52 18V60L128 40z"
+    fill="#38bdf8"
+    opacity="0.25"
+  />
+</svg>
